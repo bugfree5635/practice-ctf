@@ -61,6 +61,6 @@ for i in range(1,21):
         ans+=f3(i,ord('a'),ord('z')+1,True)
     else:
         # only digits
-        ans+=f3(i,1,10,False)
+        ans+=f3(i,0,10,False)
     print('CURRRRRR ANSSS',ans)
 # CURRRRRR ANSSS 9mmh4ykjckkn2wb8wb44
